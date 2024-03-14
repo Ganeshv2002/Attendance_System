@@ -1,0 +1,105 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color for the body */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center align the content */
+}
+
+/* Style the header */
+.header {
+    background-color: #1e63ad;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Style the main title */
+.header h1 {
+    font-size: 36px;
+}
+
+/* Style the video and canvas elements */
+.video-container {
+    margin: 20px 0;
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+#video {
+    display: block;
+    max-width: 100%;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Style the buttons */
+.buttons {
+    margin: 20px auto;
+}
+
+.button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #1e63ad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the download button */
+.download-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the attendance table */
+.attendance-table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.attendance-table th, .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.attendance-table th {
+    background-color: #1e63ad;
+    color: #fff;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #1e63ad;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Center align the footer text */
+.footer p {
+    text-align: center;
+    margin: 0;
+}
+
