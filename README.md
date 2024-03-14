@@ -1,7 +1,4 @@
 # Real-Time Face Recognition Attendance System
-<p align="center">
-  <img src="./static/results/face-recognition.gif" alt="animated" />
-</p>
 
 # How to add 1 peason to recognize
 ### Step 1: Create a folder with the folder name being the name of the person
