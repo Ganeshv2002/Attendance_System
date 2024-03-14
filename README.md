@@ -1,4 +1,4 @@
-# Real-Time Face Recognition
+# Real-Time Face Recognition Attendance System
 <p align="center">
   <img src="./static/results/face-recognition.gif" alt="animated" />
 </p>
